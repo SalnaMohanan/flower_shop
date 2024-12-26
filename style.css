@@ -1,0 +1,130 @@
+/* navbar */
+
+.nav-item:hover {
+    font-weight: 700;
+}
+
+
+/* header */
+
+.head {
+    background: linear-gradient(rgb(238, 76, 103), rgb(243, 121, 141), pink);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.head h1 {
+    margin: 0;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 45px;
+    color: rgb(44, 41, 41);
+    font-family: "Kanit", serif;
+}
+
+.head p {
+    padding-top: -60px;
+    opacity: 0.7;
+    font-size: 20px;
+    margin: 45px auto;
+    width: 60vw;
+    text-align: center;
+}
+
+.head span {
+    font-weight: 600;
+}
+
+.head a {
+    text-decoration: none;
+    color: black;
+}
+
+
+/* itmes */
+
+.container {
+    margin-top: 100px;
+}
+
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.card-text {
+    font-family: "Edu AU VIC WA NT Pre", cursive;
+}
+
+
+/* customer */
+
+.customers {
+    background: rgb(243, 121, 141);
+}
+
+.title {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 20px;
+    border-bottom: 5px solid beige;
+    width: 235px;
+    margin: 15px 0
+}
+
+.cust:hover {
+    animation: bounce;
+    animation-duration: 2s;
+}
+
+
+/* booking */
+
+.book {
+    background: linear-gradient(rgba(68, 56, 56, 0.85), rgba(163, 139, 139, 0.85)), url("https://images.pexels.com/photos/1182338/pexels-photo-1182338.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500") center/cover no-repeat;
+    color: white;
+    padding: 40px 60px;
+    opacity: 0.8;
+}
+
+
+/* footer */
+
+.social-icons {
+    list-style: none;
+    display: flex;
+    justify-content: baseline;
+    padding: 15px 0;
+    color: wheat;
+}
+
+.social-icons li {
+    margin: 0 10px;
+    width: 50px;
+    height: 50px;
+    background: rgb(36, 20, 20);
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-icons li:hover {
+    background: white;
+    color: black;
+}
+
+.foot a {
+    text-decoration: none;
+    display: block;
+    margin-bottom: 10px;
+    color: white;
+}
+
+#loginbody {
+    background: rgba(163, 139, 139, 0.85);
+}
